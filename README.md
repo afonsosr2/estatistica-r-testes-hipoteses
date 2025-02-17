@@ -1,53 +1,96 @@
-# **Estatística com R: aplicando a probabilidade e amostragem**
+# **Estatística com R: aplicando testes de hipóteses**
 
-Este curso traz como storytelling nossa atuação como cientistas de dados para a consultoria de empresas que lidam com problemas em áreas como marketing, atendimento ao cliente e logística. Por meio do curso, vamos aplicar conceitos estatísticos, explorando como distribuições de probabilidade, cálculo de probabilidades, técnicas de amostragem e estimações podem auxiliar na resolução de problemas práticos. Utilizaremos a linguagem R para responder questionamentos específicos, fornecendo insights baseados em dados para apoiar processos de decisão.
+## 📖 **Storytelling**
+
+Estamos atuando como cientistas de dados em uma empresa que presta consultoria para diversos setores do mercado. Nosso objetivo é auxiliar essas empresas na tomada de decisão baseada em dados, identificando insights e validando hipóteses através da análise estatística.
+
+Nosso desafio é aplicar conceitos fundamentais de **inferência estatística**, como **testes de hipóteses**, **p-valor** e **nível de significância**, para analisar os dados e fornecer respostas concretas aos problemas enfrentados pelas empresas. Para isso, utilizaremos a linguagem R e seus pacotes estatísticos.
 
 ## 🎯 **Objetivo**
 
-O objetivo deste curso é introduzir conceitos fundamentais de estatística e probabilidade aplicados a cenários reais de negócios, com ênfase em resolver problemas práticos usando a linguagem R. Ao final do curso, o aluno estará apto a:
-- Selecionar a distribuição de probabilidade e técnica estatística adequada para diferentes tipos de problemas.
-- Aplicar conceitos de probabilidade e amostragem para calcular probabilidades e realizar estimativas.
-- Compreender os conceitos de população e amostra e saber aplicá-los.
-- Definir o tamanho amostral ideal para análises e interpretações com confiança.
-- Utilizar R para realizar análises estatísticas que agreguem valor em consultorias para tomada de decisão.
+Este curso tem como objetivo apresentar conceitos fundamentais de testes de hipóteses, explorando casos práticos resolvidos com a linguagem R e seus pacotes estatísticos. Durante o curso, abordaremos:
+
+- Diferenças entre testes paramétricos e não paramétricos;
+- Como e quando aplicar cada tipo de teste;
+- Testes estatísticos clássicos e suas premissas;
+- Interpretação de resultados utilizando p-valor, estatísticas de teste e intervalos de confiança;
+- Criação de visualizações para comunicar insights de forma clara.
+
+Ao final do curso, você será capaz de selecionar o teste adequado para cada problema, interpretar corretamente os resultados e comunicar suas conclusões de forma precisa.
 
 ## 👥 **Público-Alvo**
 
 Este curso é ideal para:
-- Profissionais que desejam aprimorar seu conhecimento em estatística e ciência de dados, aplicando conceitos em R para a resolução de problemas reais.
-- Estudantes e profissionais que já conhecem os fundamentos de probabilidade e amostragem, mas buscam praticar e consolidar esses conhecimentos com R como ferramenta estatística.
+
+- Pessoas que desejam aprofundar seus conhecimentos em estatística aplicada à ciência de dados;
+- Profissionais e estudantes que já possuem uma base estatística e querem aplicá-la na linguagem R;
+- Cientistas de dados que buscam melhorar sua capacidade de realizar inferências estatísticas para tomada de decisão.
 
 ## 📋 **Pré-requisitos**
 
-Para acompanhar o curso com sucesso, é importante:
-- Conhecimento básico em R, especialmente no uso de funções do R básico.
-- Conhecimento prévio de estatística, incluindo:
-  - Tipos de variáveis (categóricas e numéricas, discretas e contínuas)
-  - Distribuição de frequências
-  - Medidas de tendência central (média, mediana e moda)
-  - Medidas separatrizes (quartis, decis, percentis)
-  - Medidas de dispersão (variância e desvio padrão)
+Para acompanhar este curso, recomenda-se:
+
+- Conhecimento básico em R, especialmente o uso de funções do R básico;
+- Compreensão de conceitos fundamentais de estatística, como:
+  - Tipos de variáveis;
+  - Distribuição de frequências; 
+  - Medidas de tendência central, separatrizes e de dispersão;
+  - Distribuição normal, cálculo e interpretação de probabilidades;
+  - Nível de confiança e significância estatística.
+  - Intervalos de confiança e tamanhos de amostra;
+  - Estimativa de valores;
 
 ## 📚 **Conteúdo do Curso**
 
-1. Distribuição Binomial
-2. Distribuição de Poisson
-3. Distribuição Normal
-4. Estimação
-5. Técnicas de Amostragem
+### 🔍 Conceitos Fundamentais
+- Introdução a testes de hipóteses
+- Etapas de um teste de hipótese
+- Interpretação do p-valor e nível de significância
+- Diferença entre testes **paramétricos** e **não paramétricos**
+
+### 📊 Testes de Hipóteses
+
+#### **Testes Paramétricos**
+- Teste de normalidade Shapiro-Wilk
+- Teste Z para uma amostra e duas amostras
+- Teste t de Student para uma e duas amostras (independentes e dependentes)
+- Teste F para homogeneidade de variâncias
+- Teste ANOVA de uma e duas vias
+
+#### **Testes Não Paramétricos**
+- Teste Qui-Quadrado de aderência e de independência
+- Teste Exato de Fisher
+- Teste de Wilcoxon (para amostras pareadas)
+- Teste U de Mann-Whitney (para amostras independentes)
+
+### 📈 Interpretação e Visualização dos Resultados
+- Como reportar os resultados dos testes de hipóteses
+- Utilização dos pacotes de visualização de dados para criar visualizações estatísticas
+- Análise crítica dos resultados e tomada de decisão baseada em dados
 
 ## ⬆️ **Habilidades Desenvolvidas**
 
-Ao concluir o curso, o aluno será capaz de:
-- Diferenciar as distribuições de probabilidade Binomial, Poisson e Normal.
-- Calcular probabilidades e realizar estimativas para responder a problemas específicos.
-- Definir níveis de confiança e interpretar intervalos de confiança.
-- Aplicar técnicas de amostragem e estimar o tamanho de amostra adequado.
-- Utilizar R para realizar análises estatísticas e construir visualizações que auxiliem na interpretação de dados.
+Ao concluir este curso, você será capaz de:
 
+✅ Aplicar testes de hipóteses corretamente para diferentes tipos de dados;
+
+✅ Diferenciar e escolher testes paramétricos e não paramétricos adequados;
+
+✅ Interpretar p-valor, estatísticas de teste e intervalos de confiança;
+
+✅ Criar visualizações que ajudem na comunicação de resultados;
+
+✅ Tomar decisões baseadas em análises estatísticas mais confiáveis.
+
+## 🚀 **Tecnologias Utilizadas**
+
+- Linguagem **R**
+- Pacotes estatísticos: `dplyr`, `rstatix`, `BSDA`, `car`, `ggplot2`
 
 ## 📈 **Próximos Passos**
 
-Este projeto é apenas o começo da jornada para se tornar uma pessoa cientista de dados. Conforme você avança, continuará aprimorando suas habilidades em análise de dados, storytelling e geração de insights utilizando os conceitos da estatística e o conhecimento do negócio.
+Este curso é um passo importante para aprimorar suas habilidades em estatística aplicada. Conforme você avança, continuará desenvolvendo conhecimentos sobre modelagem estatística e machine learning aplicado à tomada de decisão.
 
-Se você estiver pronto(a) para se aprofundar na análise de dados e transformar números em insights valiosos utilizando a linguagem R, esse curso é o lugar certo para começar!
+
+Se você deseja aprofundar-se ainda mais e se tornar um cientista de dados confiante na aplicação de métodos estatísticos, este curso é o caminho certo para você! 🚀
+
